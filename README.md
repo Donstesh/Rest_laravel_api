@@ -13,7 +13,7 @@ LARAVEL REST APIs
         public fucntion country()
             {
             return response()->json(ModelName::get(), Responce (200));
-            }
+            };
 N/B dont inlude Responce () just use 200 for success return of json
 5. define your $table as protected and all the fields that are to be mass filled
 
